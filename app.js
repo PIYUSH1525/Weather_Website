@@ -1,7 +1,7 @@
 // SELECT ELEMENTS
-const iconElement = document.querySelector(".weather-icon");
-const tempElement = document.querySelector(".temperature-value p");
-const descElement = document.querySelector(".temperature-description p");
+const iconElement = document.querySelector(".image");
+const tempElement = document.querySelector(".temp-value p");
+const descElement = document.querySelector(".temp-desc p");
 const locationElement = document.querySelector(".location p");
 const notificationElement = document.querySelector(".notification");
 
@@ -87,4 +87,9 @@ tempElement.addEventListener("click", function(){
         tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
         weather.temperature.unit = "celsius"
     }
+    
 });
+
+
+
+{/* <a class="_2qvBBJ _2Mji8F" title="Laptop Accessories" href="/laptop-accessories/pr?sid=6bo,ai3&amp;otracker=categorytree">Laptop Accessories</a> */}
